@@ -1,5 +1,5 @@
 # Reconocimiento de dígitos: TP2 de Métodos Numéricos
-## 2021, 2do cuatrimestre
+## 2022, 1er cuatrimestre
 
 ## Instrucciones
 
