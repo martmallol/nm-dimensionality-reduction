@@ -1,7 +1,7 @@
 # Numerical Methods: "Different Dimensionality Reduction Techniques" Individual Project
 ## 2022, 1st semester
 
-[Fashion MNIST Sample](./notebooks/Imagenes/fashion.png)
+![Fashion MNIST Sample](./notebooks/Imagenes/fashion.png)
 
 ## Local Setup
 
