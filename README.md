@@ -101,13 +101,36 @@ make install
 ```
 
 ## Overview
+This project has the purpouse of studying the differences and similarities between various "Dimensionality Reduction" techniques. It was of interest to study how efficient this techniques were with the company of a "Classifier". The techniques that were treated in this experiment were: 
+- PCA (Principal Component Analysis)
+- t-SNE (t-distributed Stochastic Neighbor Embedding)
+- UMAP (Unifold Manifold Approximation and Projection)
+and the classifier was
+- kNN (k-Nearest Neighbors).
+
+The dataset provided for this project was the **Fashion MNIST**. It can be found on [Kaggle](https://www.kaggle.com/datasets/zalando-research/fashionmnist). The data was selected utilising the K-Fold Cross Validation technique. That way, a representative portion of the whole data sample will be selected.
+
+The goal was to observe and compare the accuracy of the predictions, and the execution time, of every technique. With, or without the pressence of a classifier. 
 
 ### Project's directories and files
+In `notebooks/` we can find every experimentation that was done for the project.
 
-In `data/`, as its name points out, we have the training data (`data/train.csv`) and the testing data (`data/test.csv`).
+In `enunciado.md` there are the tasks that were completed.
 
-### Other directories
+Finally, in `InformeMallol.pdf` there's the final essay.
 
-In `src/` we have the C++ code. More specifically, in `src/metnum.cpp` we finde the pybind's entry-point.
+### Users should be able to
+- Run every Notebook in the project.
+- Read the essay and compare my conclusions with theirs.
 
-In `notebooks/` we can find some examples that can be useful for running the project using the 'sklearn' library and the C++ implementation. 
+### Built with
+- Python
+- Jupyter Notebooks
+- Principally, the SKLEARN library.
+- Fashion MNIST dataset
+
+### What I learnt
+- How to compare and experiment with different dimensionality reduction techniques.
+- Get pros and cons of different techniques. Try to think the best use case scenario for every one of them.
+- Manipulate a really big abd complete dataset by taking small to medium sized representative samples.
+- Get the performance and time execution of multiple running tests.
