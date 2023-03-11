@@ -1,4 +1,4 @@
-# Reconocimiento de dígitos: TP2 de Métodos Numéricos
+# Técnicas de reducción de dimensiones: TP individual de Métodos Numéricos
 ## 2022, 1er cuatrimestre
 
 ## Instrucciones
